@@ -16,6 +16,7 @@ Vgl. auch http://www.sciencemedianetwork.org/wiki/Enclosures_in_yahoo_media,_rss
    
 
 Beispiel:
+ 
     <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
@@ -47,7 +48,7 @@ Das normale Thumbnail wird wie folgt eingefügt:
 #### Weitere Bildauflösungen des Thumbnails:
 Standardmässig werden folgende Sizes mit angegeben, falls vorhanden: medium, large, post-thumbnail 
 
-Hierfür wird <media:content> verwendet. 
+Hierfür wird "media:content" verwendet. 
 
 Beispiel:
 
