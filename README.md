@@ -34,13 +34,14 @@ Wenn ein Beitrag ein Thumbnail (Beitragsbild) hat, wird der neue Tag
 <enclosure> verwendet um das Originalbild zu verlinken.
 
 Beispiel:
-    <enclosure url="http://DOMAIN/wp-content/uploads/sites/9/2015/04/baleia-jubarte.jpg" length="87610" width="1153" height="750" type="image/jpg" />
+
+     <enclosure url="http://DOMAIN/wp-content/uploads/sites/9/2015/04/baleia-jubarte.jpg" length="87610" width="1153" height="750" type="image/jpg" />
 
 
 #### Angabe des Thumbnails
 Das normale Thumbnail wird wie folgt eingefügt:
 
-    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://DOMAIN/wp-content/uploads/sites/9/2015/04/baleia-jubarte-150x150.jpg" width="150" height="150"  type="image/jpeg" />
+   <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://DOMAIN/wp-content/uploads/sites/9/2015/04/baleia-jubarte-150x150.jpg" width="150" height="150"  type="image/jpeg" />
 
 
 #### Weitere Bildauflösungen des Thumbnails:
@@ -49,15 +50,16 @@ Standardmässig werden folgende Sizes mit angegeben, falls vorhanden: medium, la
 Hierfür wird <media:content> verwendet. 
 
 Beispiel:
-    <media:content url="http://DOMAIN/wp-content/uploads/sites/9/2015/04/baleia-jubarte-300x195.jpg" medium="image" width="300" height="195" type="image/jpeg" >
-	<media:description type="plain"><![CDATA[medium]]></media:description> 
-    </media:content>
-    <media:content url="http://DOMAIN/wp-content/uploads/sites/9/2015/04/baleia-jubarte-1024x666.jpg" medium="image" width="1024" height="666" type="image/jpeg" >
-	<media:description type="plain"><![CDATA[large]]></media:description> 
-    </media:content>
-    <media:content url="http://DOMAIN/wp-content/uploads/sites/9/2015/04/baleia-jubarte-231x150.jpg" medium="image" width="231" height="150" type="image/jpeg" >
-	<media:description type="plain"><![CDATA[post-thumbnail]]></media:description> 
-    </media:content>
+
+     <media:content url="http://DOMAIN/wp-content/uploads/sites/9/2015/04/baleia-jubarte-300x195.jpg" medium="image" width="300" height="195" type="image/jpeg" >
+ 	<media:description type="plain"><![CDATA[medium]]></media:description> 
+     </media:content>
+     <media:content url="http://DOMAIN/wp-content/uploads/sites/9/2015/04/baleia-jubarte-1024x666.jpg" medium="image" width="1024" height="666" type="image/jpeg" >
+	 <media:description type="plain"><![CDATA[large]]></media:description> 
+     </media:content>
+     <media:content url="http://DOMAIN/wp-content/uploads/sites/9/2015/04/baleia-jubarte-231x150.jpg" medium="image" width="231" height="150" type="image/jpeg" >
+	 <media:description type="plain"><![CDATA[post-thumbnail]]></media:description> 
+     </media:content>
 
 
 Optional lassen sich neben dieser fest definierten Liste auch alle Bildauflösugen
