@@ -42,7 +42,7 @@ Beispiel:
 #### Angabe des Thumbnails
 Das normale Thumbnail wird wie folgt eingefügt:
 
-   <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://DOMAIN/wp-content/uploads/sites/9/2015/04/baleia-jubarte-150x150.jpg" width="150" height="150"  type="image/jpeg" />
+     <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://DOMAIN/wp-content/uploads/sites/9/2015/04/baleia-jubarte-150x150.jpg" width="150" height="150"  type="image/jpeg" />
 
 
 #### Weitere Bildauflösungen des Thumbnails:
