@@ -49,7 +49,6 @@ class RRZE_Thumbnails2RSS {
     }
     
     private $thumbnailrss_option_page = null;
-    private $videoportal = array();
 
     public static function activation() {
         self::version_compare();
