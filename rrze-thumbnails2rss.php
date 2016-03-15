@@ -98,8 +98,6 @@ class RRZE_Thumbnails2RSS {
         add_action('admin_init', array($this, 'admin_init'));
         add_action('admin_menu', array($this, 'add_options_page'));
 
-        // add_action('init', array($this, 'do_thumbnails2rss'));
-
 	add_action( 'rss2_ns', array($this, 'add_media_namespace') );
 	add_action( 'rss2_item',  array($this, 'add_media_thumbnail') );
 	
